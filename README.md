@@ -1,14 +1,8 @@
-# FOAAS
+# FOAAS-KR
 
-*May 2021 - v2.3.0*
+[FOAAS](https://github.com/tomdionysus/foaas) 의 한글 버전 입니다. 하루에 있었던 열받는 일들을 API로 제공해보세요
 
-[![Build Status](https://travis-ci.org/tomdionysus/foaas.svg?branch=master)](https://travis-ci.org/tomdionysus/foaas) [![Coverage Status](https://coveralls.io/repos/github/tomdionysus/foaas/badge.svg?branch=master)](https://coveralls.io/github/tomdionysus/foaas?branch=master)
-[![Coverage Status](https://coveralls.io/repos/github/tomdionysus/foaas/badge.svg?branch=master)](https://coveralls.io/github/tomdionysus/foaas?branch=master)
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-
-FOAAS (Fuck Off As A Service) provides a modern, RESTful, scalable solution to the common problem of telling people to fuck off.
-
-Please see https://foaas.com for API documentation and examples.
+[FOAAS](https://github.com/tomdionysus/foaas) fork for Koreans to utilize for their stress management.
 
 # Installation
 
@@ -27,7 +21,7 @@ Please see https://foaas.com for API documentation and examples.
 	docker build -t foaas:1 .
     docker run -v $(pwd):/usr/src/app -p 5000:5000 foaas:1
 
-# Clients
+<!-- # Clients
 
 API clients are available in a number of languages:
 
@@ -71,18 +65,18 @@ API clients are available in a number of languages:
 | TelegramBot                                 | https://github.com/rajanand02/TelegramFoaasBot                               |
 | Slack                                       | https://github.com/revmischa/foaas-slack                                     |
 | Amazon Echo                                 | https://www.amazon.com/dp/B01LZLFTMQ/ (source available [here](https://github.com/martinschaef/foaas-alex))|
-| Terraform Provider                          | https://github.com/m13t/terraform-provider-foac                              |
+| Terraform Provider                          | https://github.com/m13t/terraform-provider-foac                              | -->
 
 # Contributing
 
-## Adding new operations
+## 새로운 열받은 일을 추가하는 방법
 
-To add a new FOAAS operation:
+FOAAS-KR에 오늘 하루 있었던 열받음을 추가해보세요:
 
-1. Fork into your account
-2. Branch into a feature branch `feature/your_operation`
-3. See the operation files in `/lib/operations`.
-4. Add specs, using `/spec/operations` as examples. We won't be merging operations without working specs.
-5. Push to your fork and submit a PR.
+1. 개인 레포로 포크하세요.
+2. Feature branch 를 생성하세요: `feature/your_operation`
+3. `/lib/operations` 안에 새로운 열받음 파일을 추가하세요.
+4. `/spec/operations` 안에 새로 생성한 열받은 일들에 대한 예외들을 추가해 주세요. 없으면 추가 안해드려용.
+5. 개인 포크로 푸쉬 한 후 PR을 생성 해주세요.
 
-All contributions are very welcome.
+모든 Contribution은 환영입니다.🤗
